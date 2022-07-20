@@ -1,0 +1,33 @@
+header{
+    background-image: url(https://www.almanac.com/sites/default/files/image_nodes/sunset-red.jpg);
+    background-size: cover;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+html{
+    background-color: rgb(182, 182, 182);
+}
+.article{
+    background-color: whitesmoke;
+    border-radius: 6px;
+}
+.subheading{
+    text-decoration: underline ;
+    text-align: center;
+}
+a{
+    color: rgb(3, 151, 77);
+}
+.img{
+    border-radius: 15px;
+    width: auto;
+    height: 300px;
+}
+p{
+    text-align: center;
+}
