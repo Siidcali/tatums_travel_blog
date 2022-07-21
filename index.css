@@ -2,32 +2,35 @@ header{
     background-image: url(https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80);
     background-size: cover;
     color: white;
-    border-radius: 6px;
+    border-radius: o.75em;
     text-align: center;
+    padding: 6px;
+    box-shadow: 3px 3px black;
+    text-shadow: 2px 2px black;
 }
-h3{
-    text-align: center;
-}
+
 
 html{
     background-color: rgb(182, 182, 182);
 }
 .article{
     background-color: whitesmoke;
-    border-radius: 6px;
+    border-radius: 0.75em;
+    padding: 4px;
+    box-shadow: 3px 3px black;
 }
 .subheading{
-    text-decoration: underline ;
-    text-align: center;
+    border-bottom: 3px black inset;
 }
 a{
     color: lightseagreen;
 }
 .img{
-    border-radius: 15px;
+    border-radius: 0.75em;
+    border: lightseagreen;
     width: auto;
-    height: 300px;
-}
-p{
-    text-align: center;
+    height: 20%;
+    display: block;
+    margin-bottom: 5px;
+    box-shadow: 3px 3px black;
 }
